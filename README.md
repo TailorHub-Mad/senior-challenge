@@ -55,37 +55,13 @@ Some pointers or ideas:
 
 ### Architecture diagram
 
-Please use draw.io, excalidraw or any similar schema tools to create a diagram of the overall architecture of your application.
+Please use ![]([draw.io](https://draw.io)), ![]([excalidraw](https://excalidraw.com)) or any similar schema tools to create a diagram of the overall architecture of your application.
 
 - [ ] Diagram 1: expose to us how you have designed your current application.
 
 Imagine that after some time our application has *100.000 users per week* and some peak timings during the day with a lot of requests & traffic. 
 
 - [ ] Diagram 2: expose to us how you would scale your application with these new conditions and what you would do to improve the performance of your application.
-
-
-## Frontend
-
-Create an app that displays the restaurants from your API. You can use any framework you want.
-Most projects from Tailor are built with Next.js (React) or Nuxt.js (Vue).
-Bonus points if you use those, but it's not mandatory.
-
-### Requirements
-
-- [ ] Use a state management system to persist the state of the app.
-- [ ] Display an initial list with all restaurants.
-- [ ] When a restaurant is selected from the list, it will render a restaurant detail view displaying a few more details about that restaurant
-- [ ] Enable CRUD actions for restaurants, and develop the corresponding pages.
-- [ ] Enable CRUD actions for comments.
-- [ ] Display a spinner or placeholder component while the API request is ongoing.
-- [ ] Make it look visually appealing. Reproduce the figma design as accurate as possible, but it does not necessarily have to be perfect. Add images for each device.
-
-Push the code to a public github repository with a README.md that explains how to run API & Frontend apps.
-Then, email it to us.
-
-## Design
-
-Figma link: https://www.figma.com/file/LuwjRZZb3ms0MeAmu7gZch/Tailor-Prueba-t%C3%A9cnica-Junior?type=design&node-id=2%3A15&mode=design&t=mYbsPNUJscBcb7yN-1
 
 ## Bonus points
 
