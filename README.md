@@ -35,12 +35,12 @@ At Tailor, we use TypeScript, Express and NestJS for our projects, but feel free
 	14.	POST /restaurants: Create a restaurant.
 	15.	PUT /restaurants/:id: Edit a restaurant.
 	16.	DELETE /restaurants/:id: Delete a restaurant.
-	17.	GET /admin/stats: See statistics (e.g., number of users, reviews, restaurants).
+	17.	GET /admin/stats: See statistics of: number of users, reviews, restaurants.
 
 ### Middlewares    
 
-[ ] Middleware for authentication
-[ ] Middleware for roles
+- [ ] Middleware for authentication
+- [ ] Middleware for roles
 
 ### Scalability
 
@@ -49,19 +49,19 @@ You will need to think of some strategies to make your application scalable.
 
 Some pointers or ideas:
 
-[ ] Rate Limiting
-[ ] Caching
-[ ] Docker
+- [ ] Rate Limiting
+- [ ] Caching
+- [ ] Docker
 
 ### Architecture diagram
 
 Please use draw.io, excalidraw or any similar schema tools to create a diagram of the overall architecture of your application.
 
-[ ] Diagram 1: expose to us how you have designed your current application.
+- [ ] Diagram 1: expose to us how you have designed your current application.
 
 Imagine that after some time our application has *100.000 users per week* and some peak timings during the day with a lot of requests & traffic. 
 
-[ ] Diagram 2: expose to us how you would scale your application with these new conditions and what you would do to improve the performance of your application.
+- [ ] Diagram 2: expose to us how you would scale your application with these new conditions and what you would do to improve the performance of your application.
 
 
 ## Frontend
@@ -72,13 +72,13 @@ Bonus points if you use those, but it's not mandatory.
 
 ### Requirements
 
-[ ] Use a state management system to persist the state of the app.
-[ ] Display an initial list with all restaurants.
-[ ] When a restaurant is selected from the list, it will render a restaurant detail view displaying a few more details about that restaurant
-[ ] Enable CRUD actions for restaurants, and develop the corresponding pages.
-[ ] Enable CRUD actions for comments.
-[ ] Display a spinner or placeholder component while the API request is ongoing.
-[ ] Make it look visually appealing. Reproduce the figma design as accurate as possible, but it does not necessarily have to be perfect. Add images for each device.
+- [ ] Use a state management system to persist the state of the app.
+- [ ] Display an initial list with all restaurants.
+- [ ] When a restaurant is selected from the list, it will render a restaurant detail view displaying a few more details about that restaurant
+- [ ] Enable CRUD actions for restaurants, and develop the corresponding pages.
+- [ ] Enable CRUD actions for comments.
+- [ ] Display a spinner or placeholder component while the API request is ongoing.
+- [ ] Make it look visually appealing. Reproduce the figma design as accurate as possible, but it does not necessarily have to be perfect. Add images for each device.
 
 Push the code to a public github repository with a README.md that explains how to run API & Frontend apps.
 Then, email it to us.
@@ -92,3 +92,4 @@ Figma link: https://www.figma.com/file/LuwjRZZb3ms0MeAmu7gZch/Tailor-Prueba-t%C3
 1. Deploy the app.
 2. Write realistic unit & end-to-end tests.
 3. Good documentation is appreciated (with tools like Swagger, Postman, etc or just explicit guidance in the README.md)
+4. For statistics: if you have time, create a query that returns the top 3 rated restaurants, the top 3 most reviewed restaurants.
