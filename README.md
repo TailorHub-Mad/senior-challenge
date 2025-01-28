@@ -55,7 +55,7 @@ Some pointers or ideas:
 
 ### Architecture diagram
 
-Please use ![]([draw.io](https://draw.io)), ![]([excalidraw](https://excalidraw.com)) or any similar schema tools to create a diagram of the overall architecture of your application.
+Please use [draw.io](https://draw.io), [excalidraw](https://excalidraw.com) or any similar schema tools to create a diagram of the overall architecture of your application.
 
 - [ ] Diagram 1: expose to us how you have designed your current application.
 
